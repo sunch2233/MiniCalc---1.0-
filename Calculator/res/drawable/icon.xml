@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- 外壳 -->
+<item><shape android:shape="rectangle"><solid android:color="#FF555555"/><corners android:radius="5dp"/></shape></item>
+<!-- 显示屏 -->
+<item><inset android:insetTop="6dp" android:insetLeft="6dp" android:insetRight="6dp" android:insetBottom="26dp"><shape android:shape="rectangle"><solid android:color="#FFAADD00"/></shape></inset></item>
+<!-- 左键背景 -->
+<item><inset android:insetTop="30dp" android:insetLeft="6dp" android:insetRight="27dp" android:insetBottom="6dp"><shape android:shape="rectangle"><solid android:color="#FFCCCCCC"/><corners android:radius="1dp"/></shape></inset></item>
+<!-- 右键背景 -->
+<item><inset android:insetTop="30dp" android:insetLeft="27dp" android:insetRight="6dp" android:insetBottom="6dp"><shape android:shape="rectangle"><solid android:color="#FFCCCCCC"/><corners android:radius="1dp"/></shape></inset></item>
+<!-- 加号-横（加粗3dp） -->
+<item><inset android:insetTop="34dp" android:insetLeft="9dp" android:insetRight="30dp" android:insetBottom="11dp"><shape android:shape="rectangle"><solid android:color="#FF222222"/></shape></inset></item>
+<!-- 加号-竖（加粗3dp） -->
+<item><inset android:insetTop="31dp" android:insetLeft="12dp" android:insetRight="33dp" android:insetBottom="8dp"><shape android:shape="rectangle"><solid android:color="#FF222222"/></shape></inset></item>
+<!-- 减号-横（加粗3dp） -->
+<item><inset android:insetTop="34dp" android:insetLeft="30dp" android:insetRight="9dp" android:insetBottom="11dp"><shape android:shape="rectangle"><solid android:color="#FF222222"/></shape></inset></item>
+</layer-list>
